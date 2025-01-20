@@ -7,12 +7,12 @@ from babel.numbers import format_currency
 sns.set_theme(style='dark')
 
 #Membaca semua csv file
-all_month = pd.read_csv("all_month.csv")
-correlation_df = pd.read_csv("correlation.csv")
-jam_df = pd.read_csv("jam.csv")
-all_day = pd.read_csv("all_day.csv")
-all_day_station = pd.read_csv("all_day_station.csv")
-all_year = pd.read_csv("all_year.csv")
+all_month = pd.read_csv("dashboard/all_month.csv")
+correlation_df = pd.read_csv("dashboard/correlation.csv")
+jam_df = pd.read_csv("dashboard/jam.csv")
+all_day = pd.read_csv("dashboard/all_day.csv")
+all_day_station = pd.read_csv("dashboard/all_day_station.csv")
+all_year = pd.read_csv("dashboard/all_year.csv")
 
 # Konversi string 'date_str' menjadi objek datetime
 all_day["date"] = pd.to_datetime(all_day["date"])
