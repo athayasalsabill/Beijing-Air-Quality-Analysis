@@ -1,1 +1,1 @@
-https://air-quality-analysis-app-athaya.streamlit.app/
+https://air-quality-at-beijing.streamlit.app/
