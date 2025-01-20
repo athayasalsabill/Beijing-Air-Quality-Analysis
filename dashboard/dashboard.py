@@ -22,7 +22,7 @@ min_date = all_day["date"].min()
 max_date = all_day["date"].max()
 with st.sidebar:
     # Menambahkan logo perusahaan
-    st.image("Beijing.jpg")
+    st.image("dashboard/Beijing.jpg")
 
     # Mengambil start_date & end_date dari date_input
     start_date, end_date = st.date_input(
